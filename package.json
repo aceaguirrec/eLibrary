@@ -1,0 +1,31 @@
+{
+  "name": "elibrary",
+  "version": "1.0.0",
+  "description": "E-Library system",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon --ignore public/ --ignore node_modules/ src/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aceaguirrec/eLibrary.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aceaguirrec/eLibrary/issues"
+  },
+  "homepage": "https://github.com/aceaguirrec/eLibrary#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.7.13",
+    "morgan": "^1.9.1",
+    "nodemon": "^2.0.1",
+    "passport": "^0.4.0",
+    "passport-jwt": "^4.0.0"
+  }
+}
